@@ -10,7 +10,7 @@ sub MAIN (
   my $rules = from-json slurp $infile;
   
   my $blacklist = set <&zwnj; &DownBreve; &TripleDot; &DotDot; &tdot; &zwj;>;
-  my $usequotes = set <&quot; &quot &QUOT; &QUOT &apos;>;
+  my $usequotes = set <&quot; &QUOT; &apos;>;
   my $useescape = set <&bsol;>;
   
   my $outkeys = '';
