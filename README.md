@@ -1,6 +1,6 @@
 # Extension of XML::Entity for (X)HTML 5 entities.
 
-[![Build Status](https://travis-ci.org/supernovus/exemel.svg?branch=master)](https://travis-ci.org/supernovus/exemel)
+[![Build Status](https://travis-ci.org/supernovus/xml-entity-html.svg?branch=master)](https://travis-ci.org/supernovus/xml-entity-html)
 
 ## Introduction
 
