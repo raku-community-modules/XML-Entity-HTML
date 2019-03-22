@@ -1,0 +1,13 @@
+{
+  "perl"        : "6.*",
+  "name"        : "XML::Entity::HTML",
+  "version"     : "0.1.0",
+  "description" : "XML::Entity extension for HTML 5 entities.",
+  "author"      : "Timothy Totten",
+  "license"     : "Artistic-2.0",
+  "depends"     : [ "XML" ],
+  "provides"    : {
+    "XML::Entity::XML" : "lib/XML/Entity/HTML.pm6"
+  },
+  "source-url"  : "git://github.com/supernovus/xml-entity-html.git"
+}
