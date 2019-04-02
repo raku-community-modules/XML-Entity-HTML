@@ -7,6 +7,11 @@ class XML::Entity::HTML is XML::Entity
     XML::Entity::HTML.new.decode($in, :$numeric);
   }
 
+  sub encode-html-entities (Str $in, Bool :$hex, *@numeric) is export
+  {
+    XML::Entity::HTML.new.encode($in, :$hex, |@numeric);
+  }
+
   has @.entityNames is rw = [
     '&zscr;',
     '&zopf;',

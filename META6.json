@@ -1,7 +1,7 @@
 {
   "perl"        : "6.*",
   "name"        : "XML::Entity::HTML",
-  "version"     : "0.1.0",
+  "version"     : "0.1.1",
   "description" : "XML::Entity extension for HTML 5 entities.",
   "author"      : "Timothy Totten",
   "license"     : "Artistic-2.0",
