@@ -12,7 +12,7 @@ supported. See the build/ directory for the script I used to build the library.
 
 ## Author
 
-Timothy Totten, supernovus on #perl6, https://github.com/supernovus/
+Timothy Totten, supernovus on #raku, https://github.com/supernovus/
 
 ## License
 
