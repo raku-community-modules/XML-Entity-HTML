@@ -9,5 +9,5 @@
   "provides"    : {
     "XML::Entity::XML" : "lib/XML/Entity/HTML.pm6"
   },
-  "source-url"  : "git://github.com/supernovus/xml-entity-html.git"
+  "source-url"  : "git://github.com/raku-community-modules/XML-Entity-HTML.git"
 }
