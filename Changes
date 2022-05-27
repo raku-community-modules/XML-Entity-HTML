@@ -1,0 +1,8 @@
+Revision history for XML-Entity-HTML
+
+{{$NEXT}}
+    - Completely rewite internal logic so that the mapping is
+      generated once at compile time.
+    - Rewrite the build script so that we get some easier browsable
+      code and can write the non-generated bits in the module file.
+    - First version in zef ecosystem

@@ -1,13 +1,24 @@
 {
-  "perl"        : "6.*",
-  "name"        : "XML::Entity::HTML",
-  "version"     : "0.1.1",
-  "description" : "XML::Entity extension for HTML 5 entities.",
-  "author"      : "Timothy Totten",
-  "license"     : "Artistic-2.0",
-  "depends"     : [ "XML" ],
-  "provides"    : {
-    "XML::Entity::HTML" : "lib/XML/Entity/HTML.pm6"
+  "auth": "zef:raku-comunity-modules",
+  "author": "Timothy Totten",
+  "build-depends": [
+  ],
+  "depends": [
+    "XML"
+  ],
+  "description": "Extension of XML::Entity for (X)HTML 5 entities.",
+  "license": "Artistic-2.0",
+  "name": "XML::Entity::HTML",
+  "perl": "6.*",
+  "provides": {
+    "XML::Entity::HTML": "lib/XML/Entity/HTML.rakumod"
   },
-  "source-url"  : "git://github.com/raku-community-modules/XML-Entity-HTML.git"
+  "resources": [
+  ],
+  "source-url": "git://github.com/raku-community-modules/XML-Entity-HTML.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1.2"
 }
