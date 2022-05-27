@@ -1,6 +1,8 @@
 Revision history for XML-Entity-HTML
 
 {{$NEXT}}
+
+0.1.2  2022-05-27T15:09:22+02:00
     - Completely rewite internal logic so that the mapping is
       generated once at compile time.
     - Rewrite the build script so that we get some easier browsable
